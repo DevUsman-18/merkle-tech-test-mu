@@ -50,9 +50,7 @@ Now when i get 70s, i can display 10s and increment the minutes element by the a
 This can also then be added onto the user input for a total minutes count.
 Remaining question is mostly figuring out what the conditionals will account for. In this case; I have 
 accounted for minutes and seconds that are  less than 59, minutes and seconds which are divisible by 60, and 
-any anything else.
-
-
+any anything else.  
 Having difficulties scaling the class. Can correctly increment the scale(seconds) into my timeArray but do 
 not get correct result.
 FIXED! Missing addition assignment operator on line 19. Now need to ensure result is output in correct format.
